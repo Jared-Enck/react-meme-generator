@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = [];
 
-export const memeSlice = createSlice({
+export const memeListSlice = createSlice({
   name: 'memeList',
   initialState,
   reducers: {
@@ -18,6 +18,6 @@ export const memeSlice = createSlice({
   },
 });
 
-export const { addMeme, deleteMeme } = memeSlice.actions;
+export const { addMeme, deleteMeme } = memeListSlice.actions;
 
-export default memeSlice.reducer;
+export default memeListSlice.reducer;
