@@ -1,3 +1,4 @@
 import { combineReducers } from '@reduxjs/toolkit';
+import memeListReducer from './memeListSlice';
 
-export default combineReducers({});
+export default combineReducers({ memeList: memeListReducer });
