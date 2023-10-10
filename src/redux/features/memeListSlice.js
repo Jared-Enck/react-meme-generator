@@ -7,10 +7,10 @@ export const memeListSlice = createSlice({
   initialState,
   reducers: {
     addMeme: (state, action) => {
-      state.push(action.payload.meme);
+      state.push(action.payload);
     },
     deleteMeme: (state, action) => {
-      state.splice(action.payload.idx, 1);
+      state.splice(action.payload, 1);
     },
     default: (state) => {
       return state;
