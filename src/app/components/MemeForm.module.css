@@ -1,0 +1,24 @@
+.form {
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 9999px;
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.8);
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.4);
+  transition: 150ms ease-out;
+}
+
+.button:hover {
+  transition: 150ms ease-in;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+}
