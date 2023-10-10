@@ -1,7 +1,33 @@
 .main {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   padding: 6rem;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list li {
+  list-style: none;
+}
+
+.list li button {
+  background-color: rgba(255, 0, 0, 0.75);
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 9999px;
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  border: none;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.4);
+  transition: 150ms ease-out;
+}
+.list li button:hover {
+  transition: 150ms ease-in;
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
 }

@@ -15,6 +15,10 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className={anton.className}>
         <ReduxProvider store={store}>{children}</ReduxProvider>
+        <script
+          src='https://kit.fontawesome.com/79f9c1e928.js'
+          crossOrigin='anonymous'
+        />
       </body>
     </html>
   );
